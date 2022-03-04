@@ -139,12 +139,13 @@ function OubitaSpawner(x:number, y: number, z: number, file: string){
   return office;
 }
 
-const fatOffice = OubitaSpawner(74, 0, 16
-  , "models/obita_base_Vb_0.6.glb");
+const alphaOffice = OubitaSpawner(74, 0, 20
+  , "models/obita_base_Vb_0.6_phat_a7.glb");
 
-const office = OubitaSpawner(15, 0, 20, "models/obita_base_Vb_0.6_phat.glb");
+const solidOffice = OubitaSpawner(15, 0, 20, "models/obita_base_Vb_0.6_phat.glb");
 
-
+const alphaOffice2 = OubitaSpawner(74, 0, 70
+  , "models/obita_base_Vb_0.6_phat_a9.glb");
 
 const magicCarpet = spawnCube(3, 0, 3, 2, 0.1, 2)
 magicCarpet.addComponent(
